@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/asosiyFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_asosiy"
+        android:id="@+id/asosiyFragment"
+        android:name="com.bizmiz.qoraqalpoqfolklori.fragments.asosiy.AsosiyFragment"
+        android:label="AsosiyFragment" >
+        <action
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/slide_wait"
+            app:popEnterAnim="@anim/slide_wait"
+            app:popExitAnim="@anim/slide_right"
+            android:id="@+id/action_asosiyFragment_to_asarlarFragment"
+            app:destination="@id/asarlarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/asarlarFragment"
+        android:name="com.bizmiz.qoraqalpoqfolklori.fragments.asarlar.AsarlarFragment"
+        android:label="fragment_asarlar"
+        tools:layout="@layout/fragment_asarlar" >
+        <action
+            android:id="@+id/action_asarlarFragment_to_pdfOpenFragment"
+            app:destination="@id/pdfOpenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfOpenFragment"
+        android:name="com.bizmiz.qoraqalpoqfolklori.fragments.pdf_open.PdfOpenFragment"
+        android:label="fragment_pdf_open"
+        tools:layout="@layout/fragment_pdf_open" />
+</navigation>

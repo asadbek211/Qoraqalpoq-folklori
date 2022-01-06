@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437993767377",
+    "project_id": "folklor-384ff",
+    "storage_bucket": "folklor-384ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437993767377:android:ee9c9fab6ecf053fee60f0",
+        "android_client_info": {
+          "package_name": "com.bizmiz.qoraqalpoqfolklori"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437993767377-ojm2drmddic156q06o16q03ir4vb31ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ziRGWGAnmtLgpjGMdtblb0v_jjOeBCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437993767377-ojm2drmddic156q06o16q03ir4vb31ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
